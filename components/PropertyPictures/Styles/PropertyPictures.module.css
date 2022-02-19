@@ -1,0 +1,21 @@
+/* Container holding the image and the text */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: block;
+  max-width:600px;
+  max-height:400px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+}
+
+/* .imagecontainer {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  border-style: dotted dashed solid double;
+} */
