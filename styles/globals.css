@@ -1,8 +1,6 @@
 html,
 body {
   padding: 0;
-  margin-left: auto;
-  margin-right: auto;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
@@ -17,12 +15,11 @@ a {
 }
 
 .propertyContainer {
-  display: flex;
-  flex-wrap: wrap;
 }
 
 .propertyDescription {
   margin: 25px;
+  border-style: dotted dashed solid double
 }
 
 .imagegal {
@@ -39,6 +36,7 @@ a {
 #horizontal-list li {
   display: inline;
   padding-right: 10px;
+  border-style: dotted dashed solid double
 }
 
 .amentitiesTable td
