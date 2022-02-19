@@ -37,7 +37,7 @@ export default function Home() {
 
     const call = async () => {
       const response = await axios.get(
-        "https://next-app-f9hhf1te5-nirmalchaudhury.vercel.app/api/album"
+        "https://next-app-theta-eosin.vercel.app/api/album"
       );
 
       console.log(response.data)
