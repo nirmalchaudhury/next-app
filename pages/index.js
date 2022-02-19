@@ -1,10 +1,5 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import NavigationBarr from '../components/Navigation/NavigationBar'
-import PropertyTitle from '../components/PropertyTitle/PropertyTitle'
-import PropertyPictures from '../components/PropertyPictures/PropertyPictures'
-// import ImageGallery from 'react-image-gallery';
 
 import React from "react";
 import ReactDOM from "react-dom";
