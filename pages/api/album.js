@@ -8,7 +8,7 @@ export default function handler(req, res) {
         const response = await axios.get(
           "https://photos.app.goo.gl/V9ZKFhtdnLPhmVYx9"
         );
-        // console.log(response.data)
+
         let content = response.data
 
         const regex = /"(https:\/\/lh3\.googleusercontent\.com\/[a-zA-Z0-9\-_]*)"/g
@@ -19,7 +19,10 @@ export default function handler(req, res) {
             links.push(match[1])
         }
 
-        console.log(links)
+        
+        links.pop()
+        links.pop()
+        links.pop()
 
         data = response.data
 

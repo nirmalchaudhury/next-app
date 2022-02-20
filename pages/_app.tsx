@@ -1,6 +1,6 @@
 import React from 'react';
 import App from 'next/app'
-import { Layout } from "../components/Navigation/Layout";
+import { Layout } from "../components/Layout";
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
