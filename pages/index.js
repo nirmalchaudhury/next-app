@@ -107,11 +107,11 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td><FaList /> </td>
-                  <td> Minimum One Year Lease, Credit Check, Proof of Employment and First and Last month rent is required. No Pets, Non-smoker</td>
+                  <td> One Year Lease, Credit Check, Proof of Employment, First and Last month's rent, No Pets, Non-smoker</td>
                 </tr>
                 <tr>
                   <td><FaDollarSign /></td>
-                  <td>$2,295/month + utilities (Hydro, Gas, Water, and Hot Water Tank rental).</td>
+                  <td>$2,295/month + Utilities (Hydro, Gas, Water, and Hot Water Tank rental).</td>
                 </tr>
               </tbody>
             </table>
@@ -125,7 +125,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td><FaPhone /></td>
-                  <td><a href="tel:5551234567">(613)286-1160</a></td>
+                  <td><a href="tel:6132861160">(613)286-1160</a></td>
                 </tr>
               </tbody>
             </table>
