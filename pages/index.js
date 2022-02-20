@@ -107,7 +107,7 @@ export default function Home() {
                 </tr>
                 <tr>
                   <td><FaList /> </td>
-                  <td> One Year Lease, Credit Check, Proof of Employment, First and Last month's rent, No Pets, Non-smoker</td>
+                  <td> One Year Lease, Credit Check, Proof of Employment, First and Last month rent, No Pets, Non-smoker</td>
                 </tr>
                 <tr>
                   <td><FaDollarSign /></td>
