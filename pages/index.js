@@ -26,7 +26,7 @@ export default function Home() {
     const call = async () => {
       const response = await axios.get(
         // "http://localhost:3000/api/album"
-        "https://next-app-theta-eosin.vercel.app/api/album"
+        "https://juneberry-rental-theta-eosin.vercel.app/api/album"
       );
 
       console.log(response.data)
@@ -64,11 +64,11 @@ export default function Home() {
             </ul>
             <p>
               A new house with a modern open concept kitchen, quartz counter-top, stainless steel appliances, three spacious bedrooms and three baths. The primary room
-              has a walk-in closet and an ensuite washrom. The unfinished basement provides extra area for storage and a home gym.
+              has a walk-in closet and an ensuite washroom. The unfinished basement provides extra area for storage and a home gym.
 
               <br /> <br />
               
-              The home is situated on a beautiful lot with plenty of natural sunlight through out the day. It is a short drive to the Kanta Centrum, Tanger Outlets Mall and
+              The home is situated on a beautiful lot with plenty of natural sunlight through out the day. It is a short drive to the Kanata Centrum, Tanger Outlets Mall and
               the Kanata High Tech. The Trans Canada Trail and the newly built the Roucey Park are just a few steps away for biking, jogging or tennis.
             </p>
 
